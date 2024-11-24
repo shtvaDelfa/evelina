@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    background:rgb(194,227,155);
+    /* background: radial-gradient(circle, rgba(194,227,155,1) 5%, rgba(214,158,158,1) 23%, rgba(102,179,213,1) 36%, rgba(195,125,192,1) 47%, rgba(216,221,106,1) 65%, rgba(133,196,192,1) 87%, rgba(215,156,77,1) 100%); */
+    background: url(30.jpg) no-repeat center/cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    max-width: 400px;
+    border-radius: 30px;
+}
+.card-header, .card-footer {
+    background-color: #8baa87;
+    padding: 20px;
+    border-top-left-radius: 30px;
+}
+
+button{
+    background-color: rgb(233, 186, 174);
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #658669;
+    color: #ffffff;
+    border: 2px solid white;
+}
+.card-body {
+}
+.card-footer {
+}
